@@ -3,7 +3,7 @@ import Image  from 'next/image'
 const Home = () => {
   return (
     <div>
-      <h1>Hello welcome to Next app</h1>
+      <h1>Homepage</h1>
     </div>
   )
 }
