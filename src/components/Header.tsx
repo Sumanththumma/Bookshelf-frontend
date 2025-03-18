@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Logo from '../../public/Nav-assets/logo'
 export const Header = () => {
   return (
-    <nav className='w-full px-10 py-3 bg-white text-black flex justify-between'>
+    <nav className='w-full z-50 px-10 py-3 bg-white text-black flex justify-between'>
         <div id="left">
             <Link className='flex items-center gap-2' href={"/"}>
                 <Logo />
