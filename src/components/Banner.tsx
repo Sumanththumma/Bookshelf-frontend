@@ -1,10 +1,25 @@
 import React from 'react'
-import Image from 'next/image'
-import Bannerimg from '../../public/Home-assets/bannerimg'
+import Reader from '../../public/Home-assets/Reader'
 const Banner = () => {
   return (
     <>
-       <Bannerimg/>
+       <div className='px-20 flex items-center gap-20'>
+       <Reader
+        height="600px"
+        width="500px"
+        />
+        <div id="text-box"
+        className='w-1/2'>
+        <h1
+        className='text-6xl tracking-tighter leading-14 text-black'
+        >It was never this satisfying to access the classics/Fan favourites
+        </h1>
+        <h3 
+        className='text-black tracking-normal text-right text-2xl'
+        >- Beloved readers.</h3>
+        </div>
+
+       </div>
     </>
   )
 }
